@@ -7,18 +7,65 @@
     <meta name="description" content="This page is about practice HTML, Divs, button and others">
     <meta name="keywords" content="html, meta tags, web development,form,semantics">
     <meta name="author" content="Md. Abdullah Baki">
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icons8-html-5-48.png" type="image/x-icon">
     <title>HTML Forms</title>
 </head>
 
 <body>
-    <h2>Tour Registration Forms</h2>
+    <h2 style="background-color: rebeccapurple;">Tour Registration Forms</h2>
     <a href="https://bootcamp.programming-hero.com/">Visit Home Page</a>
     <form action="https://bootcamp.programming-hero.com/">
         <fieldset>
-            <legend></legend>
-        </fieldset>
+            <legend>Registration Form</legend>
+            <label for="">First Name</label> <br>
+            <input required disabled type ="text" placeholder="Enter Your First Name"> <br> <br>
+        
+            <label for="">Last Name</label> <br>
+            <input required type="text" placeholder="Enter Your Last Name"> <br> <br>
+            
+            <label for="">Your Email</label> <br>
+            <input required type="email" placeholder="Enter Your Email"> <br> <br>
+            
+            <label for="">Your Age</label> <br>
+            <input required type="number" placeholder="Enter Your Age"> <br> <br>
+            
+            <label for="">Your BirthDate</label> <br>
+            <input required type="date" placeholder="Enter Your BirthDate"> <br> <br>
+            
+            <label for="">When you want to visit?</label> <br>
+            <input required type="month" placeholder="Enter Your Month"> <br> <br>
+
+            <label for="">Enter a password</label> <br>
+            <input required type="password" placeholder="Enter Your Password"> <br> <br>
+
+            <label for="">Enter a salary range</label> <br>
+            <input type="range" min="0" max="100"> <br> <br>
+            
+            <label for="">Select a Gender</label>
+            <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<br> <br>
+
+            <label for="">Enter Your Favourite Color</label> <br>
+            <input required type="color" > <br> <br>
+
+            <label for="">Enter Your Bus</label> <br> 
+            <select name="" id="">
+                <option disabled selected>Select Your Bus</option>
+                <option value="Volvo Bus">Volvo Bus</option>
+                <option value="Mercedes Bus">Mercedes Bus</option> 
+            </select>  <br> <br>
+
+            <label for="">Enter Your Image</label> <br>
+            <input type="file" src="" alt=""> <br> <br>
+
+            <textarea name="" id="" placeholder="Write Your Details Here" cols="40" rows="10"></textarea> <br>
+
+
+
+            
+
+        
         <button type="submit">Submit</button>
+        </fieldset>
     </form>
    
         
